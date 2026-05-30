@@ -1,0 +1,20 @@
+# 1. Секреты и ключи
+*.pem
+*.key
+.env
+token.txt
+
+# 2. Мусор от операционной системы Linux / Debian
+.DS_Store
+.directory
+*.swp
+*~
+
+# 3. Мусор от редактора VS Code
+.vscode/
+.history/
+
+# 4. Кэш Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
